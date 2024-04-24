@@ -22,3 +22,6 @@
 [submodule "Microservices/notification"]
 	path = Microservices/notification
 	url = https://github.com/nabeelktr/Eduwise-notification-service.git
+[submodule "Microservices/instructor"]
+	path = Microservices/instructor
+	url = https://github.com/nabeelktr/Eduwise-instructor-service.git
