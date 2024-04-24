@@ -31,3 +31,6 @@
 [submodule "Microservices/admin"]
 	path = Microservices/admin
 	url = https://github.com/nabeelktr/Eduwise-admin-service.git
+[submodule "Microservices/user"]
+	path = Microservices/user
+	url = https://github.com/nabeelktr/Eduwise-User-service.git
