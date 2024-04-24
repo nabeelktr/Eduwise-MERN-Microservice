@@ -28,3 +28,6 @@
 [submodule "Microservices/course"]
 	path = Microservices/course
 	url = https://github.com/nabeelktr/Eduwise-course-service.git
+[submodule "Microservices/admin"]
+	path = Microservices/admin
+	url = https://github.com/nabeelktr/Eduwise-admin-service.git
