@@ -7,3 +7,9 @@
 [submodule "client"]
 	path = client
 	url = https://github.com/nabeelktr/Eduwise-client.git
+[submodule "Microservice/transcoder"]
+	path = Microservice/transcoder
+	url = https://github.com/nabeelktr/Eduwise-Transcoder-service.git
+[submodule "Microservices/transcoder"]
+	path = Microservices/transcoder
+	url = https://github.com/nabeelktr/Eduwise-Transcoder-service.git
