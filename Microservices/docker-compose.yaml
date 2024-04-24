@@ -1,0 +1,55 @@
+services:
+
+  api-gateway:
+    image: nabeelktr/eduwise-gateway:latest
+    ports:
+      - "8000:8000"
+    depends_on:
+      - auth-service
+    networks:
+      - eduwise-network
+
+  user-service:
+    image: nabeelktr/eduwise-user
+    ports:
+      - "8080:8080"
+    networks:
+      - eduwise-network
+    
+  auth-service:
+    image: nabeelktr/eduwise-auth
+    ports:
+      - "8081:8081"
+    networks:
+      - eduwise-network
+
+  course-service:
+    image: nabeelktr/eduwise-course
+
+  admin-service:
+    image: nabeelktr/eduwise-admin
+
+  instructor-service:
+    image: nabeelktr/eduwise-instructor
+
+  notification-service:
+    image: nabeelktr/eduwise-notification
+
+  order-service:
+    image: nabeelktr/eduwise-order
+
+  transcoder-service:
+    image: nabeelktr/eduwise-transcoder:latest
+    ports:
+      - "8002:8002"
+    networks:
+      - eduwise-network
+    depends_on:
+      - auth-service
+
+volumes:
+  eduwise_logs:
+  
+networks:
+  eduwise-network:
+    driver: bridge  
