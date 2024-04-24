@@ -19,3 +19,6 @@
 [submodule "Microservices/order"]
 	path = Microservices/order
 	url = https://github.com/nabeelktr/Eduwise-order-service.git
+[submodule "Microservices/notification"]
+	path = Microservices/notification
+	url = https://github.com/nabeelktr/Eduwise-notification-service.git
