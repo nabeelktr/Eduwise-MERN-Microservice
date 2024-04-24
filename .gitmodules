@@ -16,3 +16,6 @@
 [submodule "Microservices/api-gateway"]
 	path = Microservices/api-gateway
 	url = https://github.com/nabeelktr/Eduwise-api-gateway.git
+[submodule "Microservices/order"]
+	path = Microservices/order
+	url = https://github.com/nabeelktr/Eduwise-order-service.git
