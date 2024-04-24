@@ -13,3 +13,6 @@
 [submodule "Microservices/transcoder"]
 	path = Microservices/transcoder
 	url = https://github.com/nabeelktr/Eduwise-Transcoder-service.git
+[submodule "Microservices/api-gateway"]
+	path = Microservices/api-gateway
+	url = https://github.com/nabeelktr/Eduwise-api-gateway.git
