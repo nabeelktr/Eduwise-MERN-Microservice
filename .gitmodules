@@ -1,3 +1,9 @@
 [submodule "Microservices/auth"]
 	path = Microservices/auth
 	url = https://github.com/nabeelktr/Eduwise-auth-service.git
+[submodule "Microservices/client"]
+	path = Microservices/client
+	url = https://github.com/nabeelktr/Eduwise-client.git
+[submodule "client"]
+	path = client
+	url = https://github.com/nabeelktr/Eduwise-client.git
