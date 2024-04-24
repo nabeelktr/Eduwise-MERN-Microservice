@@ -6,6 +6,7 @@ services:
       - "8000:8000"
     depends_on:
       - auth-service
+      - user-service
     networks:
       - eduwise-network
 
