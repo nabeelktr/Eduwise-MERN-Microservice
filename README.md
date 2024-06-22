@@ -37,7 +37,7 @@ Eduwise is a comprehensive e-learning platform designed to provide advanced vide
 
 ```bash
 # Clone the repository
-git clone https://github.com/eduwise-mern-microservice
+git clone https://github.com/nabeelktr/eduwise-mern-microservice
 
 # Change directory
 cd {service name}
