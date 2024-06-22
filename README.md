@@ -30,7 +30,6 @@ Eduwise is a comprehensive e-learning platform designed to provide advanced vide
 - npm >= 6.0.0
 - MongoDB
 - AWS Account
-- Docker
 
 ## Getting Started
 
@@ -38,10 +37,10 @@ Eduwise is a comprehensive e-learning platform designed to provide advanced vide
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/eduwise
+git clone https://github.com/eduwise-mern-microservice
 
 # Change directory
-cd eduwise
+cd {service name}
 
 # Install Dependencies
 npm install
@@ -49,14 +48,29 @@ npm install
 # Copy .env.example to .env and update it with your specific needs
 cp .env.example .env
 
-# Generate App Key (if applicable)
-node generateKey.js
-
-# Run Migrations (if applicable)
-npm run migrate
-
-# Seed Database (if applicable)
-npm run seed
-
 # Serve
 npm run dev
+
+```
+
+## Compiling Assets
+
+```bash
+
+npm install
+
+npm start or npm start:production
+
+```
+
+## Login Details
+
+   | Email             | Name | Password | Role       |
+   |-------------------|----------|----------|--------------|
+   | eduwise2024@gmail.com | User    | qqq111QQ    | User |
+   | admin@test.com  | Admin     | Admin@123    | Admin  |
+   | instructor@test.com  | Instructor     | instructor@123    | Instructor  |
+
+
+
+
